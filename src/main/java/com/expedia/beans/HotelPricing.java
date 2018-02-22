@@ -8,7 +8,7 @@ package com.expedia.beans;
  */
 public class HotelPricing {
 
-    private float averagePriceValue,
+    private double averagePriceValue,
             totalPriceValue,
             crossOutPriceValue,
             originalPricePerNight,
@@ -18,43 +18,43 @@ public class HotelPricing {
 
     private boolean drr;
 
-    public float getAveragePriceValue() {
+    public double getAveragePriceValue() {
         return averagePriceValue;
     }
 
-    public void setAveragePriceValue(float averagePriceValue) {
+    public void setAveragePriceValue(double averagePriceValue) {
         this.averagePriceValue = averagePriceValue;
     }
 
-    public float getTotalPriceValue() {
+    public double getTotalPriceValue() {
         return totalPriceValue;
     }
 
-    public void setTotalPriceValue(float totalPriceValue) {
+    public void setTotalPriceValue(double totalPriceValue) {
         this.totalPriceValue = totalPriceValue;
     }
 
-    public float getCrossOutPriceValue() {
+    public double getCrossOutPriceValue() {
         return crossOutPriceValue;
     }
 
-    public void setCrossOutPriceValue(float crossOutPriceValue) {
+    public void setCrossOutPriceValue(double crossOutPriceValue) {
         this.crossOutPriceValue = crossOutPriceValue;
     }
 
-    public float getOriginalPricePerNight() {
+    public double getOriginalPricePerNight() {
         return originalPricePerNight;
     }
 
-    public void setOriginalPricePerNight(float originalPricePerNight) {
+    public void setOriginalPricePerNight(double originalPricePerNight) {
         this.originalPricePerNight = originalPricePerNight;
     }
 
-    public float getPercentSaving() {
+    public double getPercentSaving() {
         return percentSaving;
     }
 
-    public void setPercentSaving(float percentSaving) {
+    public void setPercentSaving(double percentSaving) {
         this.percentSaving = percentSaving;
     }
 
